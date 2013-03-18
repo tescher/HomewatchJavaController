@@ -1,0 +1,199 @@
+[2012-01-02 16:07:29,229] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2012-01-02 16:07:29,230] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://eschers.com/monitor/file.php 
+[2012-01-02 16:07:29,230] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2012-01-02 16:07:29,231] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2012-01-02 16:07:29,231] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2012-01-02 16:07:29,233] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee ID: 1 
+[2012-01-02 16:07:29,233] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2012-01-02 16:07:29,233] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 2 
+[2012-01-02 16:07:29,234] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 5000 
+[2012-01-02 16:07:29,234] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee ID: 2 
+[2012-01-02 16:07:29,234] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2012-01-02 16:07:29,234] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 3 
+[2012-01-02 16:07:29,234] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 5000 
+[2012-01-02 16:13:42,279] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2012-01-02 16:13:42,280] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://eschers.com/monitor/file.php 
+[2012-01-02 16:13:42,281] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2012-01-02 16:13:42,282] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2012-01-02 16:13:42,282] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2012-01-02 16:13:42,284] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee ID: 1 
+[2012-01-02 16:13:42,284] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2012-01-02 16:13:42,284] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 2 
+[2012-01-02 16:13:42,284] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 5000 
+[2012-01-02 16:13:42,284] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee ID: 2 
+[2012-01-02 16:13:42,284] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2012-01-02 16:13:42,284] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 3 
+[2012-01-02 16:13:42,285] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 5000 
+[2012-01-23 19:04:33,550] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://eschers.com/monitor/file.php 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: null 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: null 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee ID: 1 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 2 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 5000 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee ID: 2 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 3 
+[2012-01-23 19:04:33,566] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 5000 
+[2012-01-23 19:04:33,628] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: ?function=config&controller=null 
+[2012-01-23 19:08:00,457] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2012-01-23 19:08:00,457] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://eschers.com/monitor/file.php 
+[2012-01-23 19:08:00,457] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2012-01-23 19:08:00,457] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://eschers.com/monitor/sensors.php 
+[2012-01-23 19:08:00,457] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2012-01-23 19:08:00,457] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2012-01-23 19:08:00,457] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2012-01-23 19:08:00,503] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: ?function=config&controller=Office 
+[2012-01-23 19:08:03,405] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: [{"id":"1","name":"Garage","addressH":"0","addressL":"2","offset":"312","scale":"0.388","interval":"50000"},{"id":"2","name":"House","addressH":"0","addressL":"3","offset":"312","scale":"0.388","interval":"50000"}] 
+[2012-01-23 19:16:56,297] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2012-01-23 19:16:56,297] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://eschers.com/monitor/file.php 
+[2012-01-23 19:16:56,297] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2012-01-23 19:16:56,297] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://eschers.com/monitor/sensors.php 
+[2012-01-23 19:16:56,297] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2012-01-23 19:16:56,297] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2012-01-23 19:16:56,297] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2012-01-23 19:16:56,344] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: ?function=config&controller=Office 
+[2012-01-23 19:16:56,874] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: [{"id":"1","name":"Garage","addressH":"0","addressL":"2","offset":"312","scale":"0.388","interval":"50000"},{"id":"2","name":"House","addressH":"0","addressL":"3","offset":"312","scale":"0.388","interval":"50000"}] 
+[2012-01-23 19:20:59,042] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2012-01-23 19:20:59,042] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://eschers.com/monitor/file.php 
+[2012-01-23 19:20:59,042] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2012-01-23 19:20:59,042] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://eschers.com/monitor/sensors.php 
+[2012-01-23 19:20:59,042] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2012-01-23 19:20:59,042] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2012-01-23 19:20:59,042] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2012-01-23 19:20:59,089] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: ?function=config&controller=Office 
+[2012-01-23 19:20:59,401] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: [{"id":"1","name":"Garage","addressH":0,"addressL":2,"offset":312,"scale":0.388,"interval":50000},{"id":"2","name":"House","addressH":0,"addressL":3,"offset":312,"scale":0.388,"interval":50000}] 
+[2012-01-23 19:44:18,599] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2012-01-23 19:44:18,599] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://eschers.com/monitor/file.php 
+[2012-01-23 19:44:18,599] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2012-01-23 19:44:18,599] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://eschers.com/monitor/sensors.php 
+[2012-01-23 19:44:18,599] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2012-01-23 19:44:18,599] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2012-01-23 19:44:18,599] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2012-01-23 19:44:18,677] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: ?function=config&controller=Office 
+[2012-01-23 19:44:18,926] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: [{"id":"1","name":"Garage","addressH":0,"addressL":2,"offset":312,"scale":0.388,"interval":50000},{"id":"2","name":"House","addressH":0,"addressL":3,"offset":312,"scale":0.388,"interval":50000}] 
+[2012-01-23 19:44:18,958] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Xbee ID:2 
+[2012-01-23 19:44:18,958] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 3 
+[2012-01-23 19:44:18,958] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2012-01-23 19:44:18,958] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 50000 
+[2012-01-23 19:53:22,728] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2012-01-23 19:53:22,729] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://eschers.com/monitor/file.php 
+[2012-01-23 19:53:22,729] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2012-01-23 19:53:22,730] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://eschers.com/monitor/sensors.php 
+[2012-01-23 19:53:22,730] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2012-01-23 19:53:22,731] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2012-01-23 19:53:22,731] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2012-01-23 19:53:22,787] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: ?function=config&controller=Office 
+[2012-01-23 19:53:23,254] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: [{"id":"1","name":"Garage","addressH":0,"addressL":2,"offset":312,"scale":0.388,"interval":50000},{"id":"2","name":"House","addressH":0,"addressL":3,"offset":312,"scale":0.388,"interval":50000}] 
+[2012-01-23 19:53:23,264] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Xbee ID:2 
+[2012-01-23 19:53:23,264] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 3 
+[2012-01-23 19:53:23,274] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2012-01-23 19:53:23,274] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 50000 
+[2012-01-23 19:57:56,314] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2012-01-23 19:57:56,315] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://eschers.com/monitor/file.php 
+[2012-01-23 19:57:56,315] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2012-01-23 19:57:56,315] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://eschers.com/monitor/sensors.php 
+[2012-01-23 19:57:56,315] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2012-01-23 19:57:56,317] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2012-01-23 19:57:56,317] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2012-01-23 19:57:56,369] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: ?function=config&controller=Office 
+[2012-01-23 19:57:57,010] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: [{"id":"1","name":"Garage","addressH":0,"addressL":2,"offset":312,"scale":0.388,"interval":50000},{"id":"2","name":"House","addressH":0,"addressL":3,"offset":312,"scale":0.388,"interval":50000}] 
+[2012-01-23 19:57:57,025] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Xbee ID:2 
+[2012-01-23 19:57:57,025] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 3 
+[2012-01-23 19:57:57,025] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2012-01-23 19:57:57,025] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 50000 
+[2012-01-23 19:58:15,691] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2012-01-23 19:58:15,692] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://eschers.com/monitor/file.php 
+[2012-01-23 19:58:15,692] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2012-01-23 19:58:15,693] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://eschers.com/monitor/sensors.php 
+[2012-01-23 19:58:15,693] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2012-01-23 19:58:15,694] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2012-01-23 19:58:15,694] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2012-01-23 19:58:15,745] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: ?function=config&controller=Office 
+[2012-01-23 19:58:16,035] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: [{"id":"1","name":"Garage","addressH":0,"addressL":2,"offset":312,"scale":0.388,"interval":50000},{"id":"2","name":"House","addressH":0,"addressL":3,"offset":312,"scale":0.388,"interval":50000}] 
+[2012-01-23 19:58:16,050] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Xbee ID:1 
+[2012-01-23 19:58:16,050] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 2 
+[2012-01-23 19:58:16,051] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2012-01-23 19:58:16,051] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 50000 
+[2012-01-23 19:58:16,051] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Xbee ID:2 
+[2012-01-23 19:58:16,051] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 3 
+[2012-01-23 19:58:16,051] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2012-01-23 19:58:16,051] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 50000 
+[2013-02-03 10:50:16,986] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2013-02-03 10:50:17,008] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://eschers.com/monitor/file.php 
+[2013-02-03 10:50:17,009] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2013-02-03 10:50:17,010] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://eschers.com/monitor/sensors.php 
+[2013-02-03 10:50:17,010] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2013-02-03 10:50:17,011] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2013-02-03 10:50:17,011] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2013-02-03 10:50:17,224] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=6436 
+[2013-02-03 10:50:18,642] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: {"total":"9","rows":[{"id":"1","cell":["1","Garage","xbee","House","Office","0","2","-312","0.388","50000","50","25","600","tim@eschers.com","1","1"]},{"id":"2","cell":["2","House","xbee","House","Office","0","3","-312","0.388","50000","79","55","600","tim@eschers.com","1","1"]},{"id":"5","cell":["5","Hot Tub","ds16b80","House","BasementArduino","28601","18984","0","1","32767","104","95","600","tim@eschers.com","1","1"]},{"id":"6","cell":["6","Workout Room","ds16b80","House","BasementArduino","28653","31528","0","1","32767","75","55","600","tim@eschers.com","1","1"]},{"id":"7","cell":["7","Lake House","ds16b80","Dads","DadsArduino","35177","19752","0","1","32767","85","55","600","bill@eschers.com","1","1"]},{"id":"9","cell":["9","AKCabin","ds16b80","AK","AKArduino","49789","40744","0","1","32767","75","40","600","tim@eschers.com","1","1"]},{"id":"10","cell":["10","Lake House Freezer","ds16b80","Dads","DadsArduino","49729","2344","0","1","32767","25","-10","600","bill@eschers.com","1","1"]},{"id":"11","cell":["11","AKFreezer","ds16b80","AK","AKArduino","35191","9512","0","1","32767","37","-10","600","tim@eschers.com","1","1"]},{"id":"12","cell":["12","Dads Old House","ds16b80","Dads","DadsOldHouseArduino","35177","60200","0","1","50000","75","48","600","bill@eschers.com","1","1"]}]} 
+[2013-02-03 10:52:14,407] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2013-02-03 10:52:14,408] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://192.168.0.123:3000 
+[2013-02-03 10:52:14,409] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2013-02-03 10:52:14,409] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://192.168.0.123:3000 
+[2013-02-03 10:52:14,409] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2013-02-03 10:52:14,411] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2013-02-03 10:52:14,411] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2013-02-03 10:52:14,470] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=6436 
+[2013-02-03 10:52:14,964] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response:   
+[2013-02-03 10:54:20,234] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2013-02-03 10:54:20,235] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://192.168.0.123:3000 
+[2013-02-03 10:54:20,235] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 12345 
+[2013-02-03 10:54:20,235] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://192.168.0.123:3000 
+[2013-02-03 10:54:20,235] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2013-02-03 10:54:20,236] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2013-02-03 10:54:20,236] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2013-02-03 10:54:20,287] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 79 
+[2013-02-03 10:54:20,287] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 181 
+[2013-02-03 10:54:20,288] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 283 
+[2013-02-03 10:54:20,288] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 388 
+[2013-02-03 10:54:20,288] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 487 
+[2013-02-03 10:54:20,288] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 588 
+[2013-02-03 10:54:20,288] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash before mod: 7258860 
+[2013-02-03 10:54:20,288] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=6436 
+[2013-02-03 10:54:20,527] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response:   
+[2013-02-03 10:58:02,721] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2013-02-03 10:58:02,722] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://192.168.0.123:3000 
+[2013-02-03 10:58:02,723] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 271 
+[2013-02-03 10:58:02,723] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://192.168.0.123:3000 
+[2013-02-03 10:58:02,723] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2013-02-03 10:58:02,725] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2013-02-03 10:58:02,725] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2013-02-03 10:58:02,775] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 79 
+[2013-02-03 10:58:02,776] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 181 
+[2013-02-03 10:58:02,776] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 283 
+[2013-02-03 10:58:02,776] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 388 
+[2013-02-03 10:58:02,776] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 487 
+[2013-02-03 10:58:02,776] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 588 
+[2013-02-03 10:58:02,776] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash before mod: 159348 
+[2013-02-03 10:58:02,776] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=26276 
+[2013-02-03 10:58:03,339] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response:   
+[2013-02-03 10:59:05,788] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2013-02-03 10:59:05,789] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://192.168.0.123:3000 
+[2013-02-03 10:59:05,789] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 271 
+[2013-02-03 10:59:05,789] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://192.168.0.123:3000 
+[2013-02-03 10:59:05,789] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2013-02-03 10:59:05,791] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2013-02-03 10:59:05,791] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2013-02-03 10:59:05,844] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 79 
+[2013-02-03 10:59:05,844] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 181 
+[2013-02-03 10:59:05,844] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 283 
+[2013-02-03 10:59:05,844] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 388 
+[2013-02-03 10:59:05,845] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 487 
+[2013-02-03 10:59:05,845] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] 588 
+[2013-02-03 10:59:05,845] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash before mod: 159348 
+[2013-02-03 10:59:05,845] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=28276 
+[2013-02-03 10:59:06,161] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: [{"id":3,"addressH":0,"addressL":3,"interval":30000},{"id":4,"addressH":0,"addressL":2,"interval":30000}] 
+[2013-02-03 10:59:06,217] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Xbee ID:3 
+[2013-02-03 10:59:06,217] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 3 
+[2013-02-03 10:59:06,217] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2013-02-03 10:59:06,217] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 30000 
+[2013-02-03 10:59:06,218] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Xbee ID:4 
+[2013-02-03 10:59:06,218] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 2 
+[2013-02-03 10:59:06,218] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
+[2013-02-03 10:59:06,218] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 30000 

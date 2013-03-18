@@ -1,0 +1,28 @@
+<EscherMonitor>
+  <storeMethod>web</storeMethod>
+  <storeURI>http://192.168.0.123:3000</storeURI>
+  <storeKey>271</storeKey>
+  <xbeeCoordinator>
+    <port>COM5</port>
+    <speed>9600</speed>
+  </xbeeCoordinator>
+  <xbee>
+    <id>1</id>
+    <name>Test1</name>
+    <scale>0.578</scale>
+    <offset>-457.1</offset>
+    <addressH>0</addressH>
+    <addressL>2</addressL>
+    <interval>5000</interval>
+  </xbee>
+  <xbee>
+  	<id>2</id>
+  	<name>Test2</name>
+  	<scale>0.578</scale>
+  	<offset>-457.1</offset>
+  	<addressH>0</addressH>
+  	<addressL>3</addressL>
+  	<interval>5000</interval></xbee>
+  <controller>Office</controller>
+  <configURI>http://192.168.0.123:3000</configURI>
+</EscherMonitor>

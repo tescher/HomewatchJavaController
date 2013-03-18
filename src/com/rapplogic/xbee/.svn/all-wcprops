@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn3/misc/!svn/ver/15176/tescher/EscherMonitor/src/com/rapplogic/xbee
+END
+RxTxSerialComm.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn3/misc/!svn/ver/15176/tescher/EscherMonitor/src/com/rapplogic/xbee/RxTxSerialComm.java
+END
+XBeeConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn3/misc/!svn/ver/15176/tescher/EscherMonitor/src/com/rapplogic/xbee/XBeeConnection.java
+END
+XBeePin.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn3/misc/!svn/ver/15176/tescher/EscherMonitor/src/com/rapplogic/xbee/XBeePin.java
+END
+RxTxSerialEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn3/misc/!svn/ver/15176/tescher/EscherMonitor/src/com/rapplogic/xbee/RxTxSerialEventListener.java
+END

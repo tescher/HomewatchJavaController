@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn3/misc/!svn/ver/15227/tescher/EscherMonitor
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn3/misc/!svn/ver/15227/tescher/EscherMonitor/.classpath
+END
+librxtxSerial.jnilib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn3/misc/!svn/ver/15176/tescher/EscherMonitor/librxtxSerial.jnilib
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn3/misc/!svn/ver/15174/tescher/EscherMonitor/.project
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn3/misc/!svn/ver/15176/tescher/EscherMonitor/COPYING
+END
+xbee-api-0.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn3/misc/!svn/ver/15176/tescher/EscherMonitor/xbee-api-0.9.jar
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn3/misc/!svn/ver/15175/tescher/EscherMonitor/log4j.properties
+END
+librxtxSerial.so
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn3/misc/!svn/ver/15176/tescher/EscherMonitor/librxtxSerial.so
+END
