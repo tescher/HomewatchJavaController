@@ -32,8 +32,10 @@ public class EscherMonitor {
 	public static int storeKey;
 	public static String configURI = null;
 	public static String controller = null;
+	public static String TEDURI = null;
 	public static File logFile = null;
 	public static boolean gotOneXbee = false;
+	public static int readInterval = 120;     // Max read interval for sensors is 2 minutes
 	
 	public static class xbeeCoordinatorConfig {
 		public String port;
@@ -41,8 +43,9 @@ public class EscherMonitor {
 		public XBee xbee;
 	}
 	
-	public static class xbeeConfigBase implements Cloneable {
+	public static class sensorConfig {    
 		public String id;
+		public String type;
 		public String name;
 		public int addressH;
 		public int addressL;
@@ -50,27 +53,25 @@ public class EscherMonitor {
 		public float scale;   // Scale for offset conversion
 		public String interval;  // Interval in second between measurements, ends with an "s" possibly.
 		public int intervalSec; 
-		public xbeeConfig makeXbee()
+		public XBeeAddress16 xbeeAddress;
+		public XBee xbee;
+		public sensorConfig makeSensor()                      
 	    {
-    	  xbeeConfig xbee = new xbeeConfig();
-          xbee.id = this.id;
-          xbee.name = this.name;
-          xbee.addressL = this.addressL;
-          xbee.addressH = this.addressH;
-          xbee.offset = this.offset;
-          xbee.scale = this.scale;
-          xbee.intervalSec = Integer.parseInt(this.interval.split("s")[0]);
-          return xbee;
+    	  sensorConfig sensor = new sensorConfig();
+    	  sensor.id = this.id;
+    	  sensor.type = this.type;
+    	  sensor.name = this.name;
+    	  sensor.addressL = this.addressL;
+    	  sensor.addressH = this.addressH;
+    	  sensor.offset = this.offset;
+    	  sensor.scale = this.scale;
+    	  sensor.intervalSec = Integer.parseInt(this.interval.split("s")[0]);
+          return sensor;
 	    } 
 
 	}
 	
-	public static class xbeeConfig extends xbeeConfigBase {
-		public XBeeAddress16 xbeeAddress;
-		public XBee xbee;
-	}
-
-	public static class measurement {
+	public static class measurement {    //ToDo: Change to "xbeeMeasurement"
 		public XBeeAddress16 xbeeAddress;
 		public int metric;
 		public Date ts;
@@ -97,10 +98,91 @@ public class EscherMonitor {
 	public static Queue<measurement> measurements = new LinkedList<measurement>();
 	
 	public static xbeeCoordinatorConfig xbeeCoordinator = null;
-	public static xbeeConfig[] xbees = null;
+	public static sensorConfig[] sensors = null;
+	
+	private final static void fileData(sensorConfig sensor, int metric, Date ts) {
+		// For file storage...
+		FileWriter storeFile = null;
+		BufferedWriter storeOut = null;
+		
+		// For web storage...
+		BufferedReader in = null;
+		DocumentBuilder responseBuilder = null;
+		URL url = null;
+		
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z");
+		if (store == storeType.FILE) {
+			try {
+				storeFile = new FileWriter(storeURI);
+				storeOut = new BufferedWriter(storeFile);
+			}  catch (Exception e) {
+				logger.error("Counld not open file " + storeURI);
+				e.printStackTrace();
+				System.exit(1);
+			}
+		}
+
+		
+		String output = new String();
+
+
+		if (store == storeType.FILE) {
+			output = sensor.id + "," + sensor.name + "," + (metric*sensor.scale + sensor.offset) + "," + ts.toString();
+			try {
+				logger.debug("Filing measurement: " + output);
+				storeOut.write(output);
+				storeOut.newLine();
+			} catch (IOException e) {
+				logger.warn("Could not write to output file: " + output );
+			}
+		}
+		if (store == storeType.WEB) {
+			try {
+				output = "/measurements?" + "sensor_id=" + URLEncoder.encode(sensor.id,"UTF-8") + "&" + "value=" + URLEncoder.encode("" + metric, "UTF-8") + "&" + "ts=" + URLEncoder.encode(formatter.format(ts), "UTF-8") + "&" + "key=" + request_key("" + metric);
+				logger.debug("Filing measurement: " + output);
+				url = new URL(storeURI + output);
+				HttpURLConnection connection = (HttpURLConnection) url.openConnection();           
+				connection.setDoOutput(true);
+				connection.setDoInput(true);
+				connection.setInstanceFollowRedirects(true); 
+				connection.setRequestMethod("POST"); 
+				connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded"); 
+				connection.setRequestProperty("charset", "utf-8");
+				connection.setRequestProperty("Content-Length", "0");
+				connection.setUseCaches (false);
+
+				DataOutputStream wr = new DataOutputStream(connection.getOutputStream());
+				wr.flush();
+				wr.close();
+				connection.disconnect();
+				in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+				String inputLine;
+				String responseText = "";
+				while ((inputLine = in.readLine()) != null)	responseText += inputLine;
+				in.close();
+				logger.debug("Response: " + responseText);
+				if (responseText.indexOf("Filed") > -1) {
+						logger.debug("Filed successfully.");
+				} else {
+					logger.warn("Filer error: " + responseText);
+				}
+								
+			} catch (Exception e) {
+				logger.error("Could not file output: " + e.getMessage());
+			}
+		}
+			
+		if (store == storeType.FILE) {
+			try {
+				storeOut.flush();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
 	
 	public static void main(String[] args) {
-		NodeList nl = null;;
+		NodeList nl = null;
 		NodeList nl2 = null;
 		int i;
 		
@@ -150,6 +232,13 @@ public class EscherMonitor {
 				configURI = storeVal;
 			}
 			logger.debug("Config URI: " + configURI);
+
+			nl = doc.getElementsByTagName("TEDURI");
+			if ((nl.item(0) != null)) {
+				String storeVal = nl.item(0).getTextContent();
+				TEDURI = storeVal;
+			}
+			logger.debug("TED URI: " + TEDURI);
 			
 			nl = doc.getElementsByTagName("controller");
 			if ((nl.item(0) != null)) {
@@ -241,20 +330,23 @@ public class EscherMonitor {
 			while ((inputLine = configIn.readLine()) != null)	responseText += inputLine;
 			configIn.close();
 			logger.debug("Response: " + responseText);
-			xbeeConfigBase[] xbeesLoad = gson.fromJson(responseText, xbeeConfigBase[].class);
-			xbees = new xbeeConfig[xbeesLoad.length];
-			for (i=0; i<xbeesLoad.length; i++) {
+			sensorConfig[] sensorsLoad = gson.fromJson(responseText, sensorConfig[].class);  //ToDo++ change to generic sensor class. Get minimum interval for non-xbee sensors
+			sensors = new sensorConfig[sensorsLoad.length];
+			for (i=0; i<sensorsLoad.length; i++) {
 				//Defaults
-				xbees[i] = xbeesLoad[i].makeXbee();
-				if (xbees[i].intervalSec < 1) xbees[i].intervalSec = 120;
-				logger.debug("Xbee ID:" + xbees[i].id);
-				logger.debug("XBee AddressL: " + xbees[i].addressL);
-				logger.debug("XBee AddressH: " + xbees[i].addressH);
-				logger.debug("XBee Interval: " + xbees[i].intervalSec);
+				sensors[i] = sensorsLoad[i].makeSensor();
+				if (sensors[i].intervalSec < 1) sensors[i].intervalSec = 120;
+				if ((sensors[i].type != "xbee temp") && (sensors[i].intervalSec < readInterval)) readInterval = sensors[i].intervalSec;
+				logger.debug("Sensor ID:" + sensors[i].id);
+				logger.debug("Sensor Type:" + sensors[i].type);
+				logger.debug("Sensor AddressL: " + sensors[i].addressL);
+				logger.debug("Sensor AddressH: " + sensors[i].addressH);
+				logger.debug("Sensor Interval: " + sensors[i].intervalSec);
 			}
 		}
 		catch (Exception e) {
-			e.printStackTrace();
+			// e.printStackTrace();
+			e.getMessage();
 		}
 		
 		// Create our coordinator Xbee and try to talk to it
@@ -291,43 +383,40 @@ public class EscherMonitor {
 		}
 		
 		
-		// Create our Xbees and try to communicate with them
+		// Create our Xbees and try to communicate with them ToDo: Only do for "xbee" type sensors
 		AtCommandResponse rresponse = null;
-		logger.debug("Number of Xbees = " + xbees.length);
-		for (i=0; i < xbees.length; i++) {
-			xbees[i].xbee = new XBee();
-			xbees[i].xbeeAddress = new XBeeAddress16(xbees[i].addressH, xbees[i].addressL);
-			RemoteAtRequest rat = new RemoteAtRequest(XBeeRequest.DEFAULT_FRAME_ID, XBeeAddress64.BROADCAST, xbees[i].xbeeAddress, false, "CH");
-			try {
-				rresponse = (AtCommandResponse) xbeeCoordinator.xbee.sendSynchronous(rat, 5*1000);
-			} catch (XBeeTimeoutException e) {
-				logger.warn("Could not communicate (timeout) with Xbee id: " + xbees[i].id);
-				continue;
-			} catch (XBeeException e) {
-				logger.warn("Could not initialize Xbee id: " + xbees[i].id);
-				e.printStackTrace();
-				continue;
+		for (i=0; i < sensors.length; i++) {
+			logger.debug("Looking at sensor " + i + ": id=" + sensors[i].id + " type=" + sensors[i].type);
+			if (sensors[i].type.equals("xbee temp")) {
+				sensors[i].xbee = new XBee();
+				sensors[i].xbeeAddress = new XBeeAddress16(sensors[i].addressH, sensors[i].addressL);
+				RemoteAtRequest rat = new RemoteAtRequest(XBeeRequest.DEFAULT_FRAME_ID, XBeeAddress64.BROADCAST, sensors[i].xbeeAddress, false, "CH");
+				try {
+					rresponse = (AtCommandResponse) xbeeCoordinator.xbee.sendSynchronous(rat, 5*1000);
+				} catch (XBeeTimeoutException e) {
+					logger.warn("Could not communicate (timeout) with Xbee id: " + sensors[i].id);
+					continue;
+				} catch (XBeeException e) {
+					logger.warn("Could not initialize Xbee id: " + sensors[i].id);
+					e.printStackTrace();
+					continue;
+				}
+				// if (rresponse.isOk()) {  
+		        // success, set up listener
+				logger.debug("Found Xbee id: " + sensors[i].id);
+				
+				// set measurement interval
+				int[] intArr = new int[] {(int)(sensors[i].intervalSec*1000 >>> 8 & 0xff), (int)(sensors[i].intervalSec*1000 & 0xff)};
+				rat = new RemoteAtRequest(XBeeRequest.DEFAULT_FRAME_ID, XBeeAddress64.BROADCAST, sensors[i].xbeeAddress, true, "IR", intArr);
+				try {
+					rresponse = (AtCommandResponse) xbeeCoordinator.xbee.sendSynchronous(rat, 5*1000);
+				} catch (XBeeTimeoutException e) {
+					logger.warn("Could not communicate measurement interval to (timeout) Xbee id: " + sensors[i].id);
+				} catch (XBeeException e) {
+					logger.warn("Could not set measurement interval for Xbee id: " + sensors[i].id);
+					e.printStackTrace();
+				}
 			}
-			// if (rresponse.isOk()) {  
-	        // success, set up listener
-			logger.debug("Found Xbee id: " + xbees[i].id);
-			
-			// set measurement interval
-			int[] intArr = new int[] {(int)(xbees[i].intervalSec*1000 >>> 8 & 0xff), (int)(xbees[i].intervalSec*1000 & 0xff)};
-			rat = new RemoteAtRequest(XBeeRequest.DEFAULT_FRAME_ID, XBeeAddress64.BROADCAST, xbees[i].xbeeAddress, true, "IR", intArr);
-			try {
-				rresponse = (AtCommandResponse) xbeeCoordinator.xbee.sendSynchronous(rat, 5*1000);
-			} catch (XBeeTimeoutException e) {
-				logger.warn("Could not communicate measurement interval to (timeout) Xbee id: " + xbees[i].id);
-			} catch (XBeeException e) {
-				logger.warn("Could not set measurement interval for Xbee id: " + xbees[i].id);
-				e.printStackTrace();
-			}
-	        
-			// } else {
-				// Failure, skip this one
-				// logger.warn("Could not communicate with Xbee id: " + xbees[i].id);
-			// }
 		}
 		
 		// Create a listener for the coordinator that puts entries on the queue
@@ -353,99 +442,59 @@ public class EscherMonitor {
 		
 		// Create a filer loop that stores queue entries to the storage file/database (what about offsets and scale factors?)
 
-		// For file storage...
-		FileWriter storeFile = null;
-		BufferedWriter storeOut = null;
-		
-		// For web storage...
-		BufferedReader in = null;
-		DocumentBuilder responseBuilder = null;
-		URL url = null;
 
-		xbeeConfig xbeeFound = null;
-		String output = new String();
-		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z");
-		if (store == storeType.FILE) {
-			try {
-				storeFile = new FileWriter(storeURI);
-				storeOut = new BufferedWriter(storeFile);
-			}  catch (Exception e) {
-				logger.error("Counld not open file " + storeURI);
-				e.printStackTrace();
-				System.exit(1);
-			}
-		}
-		while (true) {
+		sensorConfig xbeeFound = null;
+		while (true) {  //ToDo: create a reader loop for T5000 sensor
 			while (!measurements.isEmpty()) {
 				measurement ms = measurements.remove();
 				// Find the Xbee this came from
 				boolean found = false;
-				for (i=0; i<xbees.length & !found; i++) {
-					if (ms.xbeeAddress.equals(xbees[i].xbeeAddress)) {
-						found = true;
-						xbeeFound = xbees[i];
+				for (i=0; i<sensors.length & !found; i++) {
+					if (sensors[i].type.equals("xbee temp")) {
+						if (ms.xbeeAddress.equals(sensors[i].xbeeAddress)) {
+							found = true;
+							xbeeFound = sensors[i];
+						}
 					}
 				}
 				if (!found) {
 					logger.warn("Xbee not found for measurement with address " + ms.xbeeAddress.get16BitValue());
 				} else {
-					if (store == storeType.FILE) {
-						output = xbeeFound.id + "," + xbeeFound.name + "," + (ms.metric*xbeeFound.scale + xbeeFound.offset) + "," + ms.ts.toString();
-						try {
-							logger.debug("Filing measurement: " + output);
-							storeOut.write(output);
-							storeOut.newLine();
-						} catch (IOException e) {
-							logger.warn("Could not write to output file: " + output );
-						}
-					}
-					if (store == storeType.WEB) {
-						try {
-							output = "/measurements?" + "sensor_id=" + URLEncoder.encode(xbeeFound.id,"UTF-8") + "&" + "value=" + URLEncoder.encode("" + ms.metric, "UTF-8") + "&" + "ts=" + URLEncoder.encode(formatter.format(ms.ts), "UTF-8") + "&" + "key=" + request_key("" + ms.metric);
-							logger.debug("Filing measurement: " + output);
-							url = new URL(storeURI + output);
-							HttpURLConnection connection = (HttpURLConnection) url.openConnection();           
-							connection.setDoOutput(true);
-							connection.setDoInput(true);
-							connection.setInstanceFollowRedirects(true); 
-							connection.setRequestMethod("POST"); 
-							connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded"); 
-							connection.setRequestProperty("charset", "utf-8");
-							connection.setRequestProperty("Content-Length", "0");
-							connection.setUseCaches (false);
-
-							DataOutputStream wr = new DataOutputStream(connection.getOutputStream());
-							wr.flush();
-							wr.close();
-							connection.disconnect();
-							in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-							String inputLine;
-							String responseText = "";
-							while ((inputLine = in.readLine()) != null)	responseText += inputLine;
-							in.close();
-							logger.debug("Response: " + responseText);
-							if (responseText.indexOf("Filed") > -1) {
-									logger.debug("Filed successfully.");
-							} else {
-								logger.warn("Filer error: " + responseText);
-							}
-											
-						} catch (Exception e) {
-							logger.error("Could not file output: " + e.getMessage());
-						}
-					}
-						
+					fileData(xbeeFound, ms.metric, ms.ts);
 				}
 			}
-			if (store == storeType.FILE) {
-				try {
-					storeOut.flush();
-				} catch (IOException e) {
-					e.printStackTrace();
+			for (i=0;i < sensors.length; i++) {
+				if (sensors[i].type.equals("TED5000")) {
+					try {
+						URL TEDURL = new URL(TEDURI + "?INDEX=1&COUNT=1&MTU=" + sensors[i].addressH);
+//						BufferedReader TEDIn = new BufferedReader(new InputStreamReader(TEDURL.openStream()));
+//						String inputLine;
+//						String responseText = "";
+//						while ((inputLine = TEDIn.readLine()) != null)	responseText += inputLine;
+//						TEDIn.close();
+//						logger.debug("TED Data: " + responseText);
+						DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+						Document doc = builder.parse(TEDURL.openStream());
+						
+						// Parse the main nodes
+						int power = Integer.parseInt(doc.getElementsByTagName("POWER").item(0).getTextContent());
+						Date ts = new SimpleDateFormat("MM/dd/yyyy k:mm:ss").parse(doc.getElementsByTagName("DATE").item(0).getTextContent());
+
+						fileData(sensors[i], power, ts);
+
+					} catch (Exception e) {
+						if (e instanceof IOException) {
+							logger.debug("Error reading TED: " + e.getMessage()+ ": " + sensors[i].addressH);
+							return;
+						} else {
+							e.printStackTrace();
+						}
+					}
+					
 				}
 			}
 			try {
-				Thread.sleep(5000);
+				Thread.sleep(readInterval*1000);  
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
