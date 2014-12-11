@@ -485,7 +485,7 @@ public class EscherMonitor {
 					} catch (Exception e) {
 						if (e instanceof IOException) {
 							logger.debug("Error reading TED: " + e.getMessage()+ ": " + sensors[i].addressH);
-							return;
+							// return;
 						} else {
 							e.printStackTrace();
 						}
