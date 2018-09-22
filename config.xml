@@ -1,9 +1,9 @@
 <EscherMonitor>
   <storeMethod>web</storeMethod>
-  <storeURI>http://192.168.0.123:3000</storeURI>
+  <storeURI>http://www.escherhomewatch.com</storeURI>
   <storeKey>271</storeKey>
   <xbeeCoordinator>
-    <port>COM5</port>
+    <port>/dev/ttyUSB0</port>
     <speed>9600</speed>
   </xbeeCoordinator>
   <xbee>
@@ -23,6 +23,7 @@
   	<addressH>0</addressH>
   	<addressL>3</addressL>
   	<interval>5000</interval></xbee>
+  <TEDURI>http://192.168.0.107/history/minutehistory.xml</TEDURI>
   <controller>Office</controller>
-  <configURI>http://192.168.0.123:3000</configURI>
+  <configURI>http://www.escherhomewatch.com</configURI>
 </EscherMonitor>

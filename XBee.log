@@ -197,3 +197,395 @@
 [2013-02-03 10:59:06,218] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressL: 2 
 [2013-02-03 10:59:06,218] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee AddressH: 0 
 [2013-02-03 10:59:06,218] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Interval: 30000 
+[2018-09-21 20:15:20,888] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2018-09-21 20:15:20,929] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://192.168.0.123:3000 
+[2018-09-21 20:15:20,929] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 271 
+[2018-09-21 20:15:20,930] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://192.168.0.123:3000 
+[2018-09-21 20:15:20,930] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] TED URI: null 
+[2018-09-21 20:15:20,930] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2018-09-21 20:15:20,931] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: COM5 
+[2018-09-21 20:15:20,931] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2018-09-21 20:15:21,137] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 28276 
+[2018-09-21 20:15:21,137] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=28276 
+[2018-09-21 20:21:36,430] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2018-09-21 20:21:36,431] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://192.168.0.123:3000 
+[2018-09-21 20:21:36,431] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 271 
+[2018-09-21 20:21:36,432] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://192.168.0.123:3000 
+[2018-09-21 20:21:36,432] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] TED URI: null 
+[2018-09-21 20:21:36,432] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2018-09-21 20:21:36,433] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: /dev/ttyUSB0 
+[2018-09-21 20:21:36,433] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2018-09-21 20:21:36,524] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 28276 
+[2018-09-21 20:21:36,525] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=28276 
+[2018-09-21 20:22:50,007] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2018-09-21 20:22:50,008] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://escherhomewatch.com 
+[2018-09-21 20:22:50,009] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 271 
+[2018-09-21 20:22:50,009] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://escherhomewatch.com 
+[2018-09-21 20:22:50,009] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] TED URI: null 
+[2018-09-21 20:22:50,010] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2018-09-21 20:22:50,010] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: /dev/ttyUSB0 
+[2018-09-21 20:22:50,010] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2018-09-21 20:22:50,103] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 28276 
+[2018-09-21 20:22:50,103] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=28276 
+[2018-09-21 20:25:41,835] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2018-09-21 20:25:41,836] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://escherhomewatch.com 
+[2018-09-21 20:25:41,837] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 271 
+[2018-09-21 20:25:41,837] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://escherhomewatch.com 
+[2018-09-21 20:25:41,837] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] TED URI: null 
+[2018-09-21 20:25:41,838] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2018-09-21 20:25:41,838] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: /dev/ttyUSB0 
+[2018-09-21 20:25:41,838] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2018-09-21 20:25:41,925] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 28276 
+[2018-09-21 20:25:41,925] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=28276 
+[2018-09-21 20:25:42,045] [main] [ERROR] [com.eschers.eschermonitor.EscherMonitor] Could not initialize Xbee coordinator. 
+[2018-09-21 20:29:00,192] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2018-09-21 20:29:00,193] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://escherhomewatch.com 
+[2018-09-21 20:29:00,194] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 271 
+[2018-09-21 20:29:00,194] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://escherhomewatch.com 
+[2018-09-21 20:29:00,194] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] TED URI: null 
+[2018-09-21 20:29:00,194] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2018-09-21 20:29:00,195] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: ttyUSB0 
+[2018-09-21 20:29:00,195] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2018-09-21 20:29:00,297] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 28276 
+[2018-09-21 20:29:00,298] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=28276 
+[2018-09-21 20:29:00,435] [main] [ERROR] [com.eschers.eschermonitor.EscherMonitor] Could not initialize Xbee coordinator. 
+[2018-09-21 20:29:45,770] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2018-09-21 20:29:45,771] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://escherhomewatch.com 
+[2018-09-21 20:29:45,771] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 271 
+[2018-09-21 20:29:45,772] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://escherhomewatch.com 
+[2018-09-21 20:29:45,772] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] TED URI: null 
+[2018-09-21 20:29:45,772] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2018-09-21 20:29:45,773] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: /dev/ttyUSB0 
+[2018-09-21 20:29:45,773] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2018-09-21 20:29:45,853] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 28276 
+[2018-09-21 20:29:45,853] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=28276 
+[2018-09-21 20:29:45,990] [main] [ERROR] [com.eschers.eschermonitor.EscherMonitor] Could not initialize Xbee coordinator. 
+[2018-09-21 20:32:12,198] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2018-09-21 20:32:12,199] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://escherhomewatch.com 
+[2018-09-21 20:32:12,199] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 271 
+[2018-09-21 20:32:12,199] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://escherhomewatch.com 
+[2018-09-21 20:32:12,199] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] TED URI: null 
+[2018-09-21 20:32:12,200] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2018-09-21 20:32:12,200] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: /dev/ttyUSB0 
+[2018-09-21 20:32:12,200] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2018-09-21 20:32:12,292] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 28276 
+[2018-09-21 20:32:12,292] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=28276 
+[2018-09-21 20:32:12,661] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] The local channel is 12 
+[2018-09-21 20:35:07,099] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2018-09-21 20:35:07,100] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://www.escherhomewatch.com 
+[2018-09-21 20:35:07,101] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 271 
+[2018-09-21 20:35:07,101] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://www.escherhomewatch.com 
+[2018-09-21 20:35:07,101] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] TED URI: null 
+[2018-09-21 20:35:07,101] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2018-09-21 20:35:07,102] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: /dev/ttyUSB0 
+[2018-09-21 20:35:07,102] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2018-09-21 20:35:07,187] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 28276 
+[2018-09-21 20:35:07,187] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=28276 
+[2018-09-21 20:35:07,302] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: [{"id":3,"addressH":0,"addressL":2,"interval":"50s","type":"xbee temp"},{"id":25,"addressH":0,"addressL":5,"interval":"50s","type":"xbee temp"},{"id":2,"addressH":0,"addressL":3,"interval":"50s","type":"xbee temp"},{"id":27,"addressH":0,"addressL":0,"interval":"60s","type":"TED5000"},{"id":24,"addressH":0,"addressL":4,"interval":"50s","type":"xbee temp"}] 
+[2018-09-21 20:35:07,367] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor ID:3 
+[2018-09-21 20:35:07,367] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Type:xbee temp 
+[2018-09-21 20:35:07,367] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressL: 2 
+[2018-09-21 20:35:07,367] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressH: 0 
+[2018-09-21 20:35:07,368] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Interval: 50 
+[2018-09-21 20:35:07,368] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor ID:25 
+[2018-09-21 20:35:07,368] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Type:xbee temp 
+[2018-09-21 20:35:07,368] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressL: 5 
+[2018-09-21 20:35:07,368] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressH: 0 
+[2018-09-21 20:35:07,368] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Interval: 50 
+[2018-09-21 20:35:07,368] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor ID:2 
+[2018-09-21 20:35:07,369] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Type:xbee temp 
+[2018-09-21 20:35:07,369] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressL: 3 
+[2018-09-21 20:35:07,369] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressH: 0 
+[2018-09-21 20:35:07,369] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Interval: 50 
+[2018-09-21 20:35:07,369] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor ID:27 
+[2018-09-21 20:35:07,369] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Type:TED5000 
+[2018-09-21 20:35:07,369] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressL: 0 
+[2018-09-21 20:35:07,370] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressH: 0 
+[2018-09-21 20:35:07,370] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Interval: 60 
+[2018-09-21 20:35:07,370] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor ID:24 
+[2018-09-21 20:35:07,370] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Type:xbee temp 
+[2018-09-21 20:35:07,370] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressL: 4 
+[2018-09-21 20:35:07,370] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressH: 0 
+[2018-09-21 20:35:07,370] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Interval: 50 
+[2018-09-21 20:35:07,606] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] The local channel is 12 
+[2018-09-21 20:35:07,606] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Looking at sensor 0: id=3 type=xbee temp 
+[2018-09-21 20:35:07,670] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Found Xbee id: 3 
+[2018-09-21 20:35:07,734] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Looking at sensor 1: id=25 type=xbee temp 
+[2018-09-21 20:35:07,798] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Found Xbee id: 25 
+[2018-09-21 20:35:07,862] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Looking at sensor 2: id=2 type=xbee temp 
+[2018-09-21 20:35:07,926] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Found Xbee id: 2 
+[2018-09-21 20:35:07,990] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Looking at sensor 3: id=27 type=TED5000 
+[2018-09-21 20:35:07,990] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Looking at sensor 4: id=24 type=xbee temp 
+[2018-09-21 20:35:08,054] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Found Xbee id: 24 
+[2018-09-21 20:35:08,120] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Error reading TED: no protocol: null?INDEX=1&COUNT=1&MTU=0: 0 
+[2018-09-21 20:35:58,120] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Error reading TED: no protocol: null?INDEX=1&COUNT=1&MTU=0: 0 
+[2018-09-21 20:36:48,121] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Error reading TED: no protocol: null?INDEX=1&COUNT=1&MTU=0: 0 
+[2018-09-21 20:37:38,121] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Error reading TED: no protocol: null?INDEX=1&COUNT=1&MTU=0: 0 
+[2018-09-21 20:45:04,246] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store type: WEB 
+[2018-09-21 20:45:04,247] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store URI: http://www.escherhomewatch.com 
+[2018-09-21 20:45:04,248] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Store Key: 271 
+[2018-09-21 20:45:04,248] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Config URI: http://www.escherhomewatch.com 
+[2018-09-21 20:45:04,248] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] TED URI: http://192.168.0.107/history/minutehistory.xml 
+[2018-09-21 20:45:04,249] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Controller ID: Office 
+[2018-09-21 20:45:04,249] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Port: /dev/ttyUSB0 
+[2018-09-21 20:45:04,249] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] XBee Coordinator Speed: 9600 
+[2018-09-21 20:45:04,353] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 28276 
+[2018-09-21 20:45:04,353] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Asking for config: /sensors/getconfig?cntrl=Office&key=28276 
+[2018-09-21 20:45:04,557] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: [{"id":3,"addressH":0,"addressL":2,"interval":"50s","type":"xbee temp"},{"id":25,"addressH":0,"addressL":5,"interval":"50s","type":"xbee temp"},{"id":2,"addressH":0,"addressL":3,"interval":"50s","type":"xbee temp"},{"id":27,"addressH":0,"addressL":0,"interval":"60s","type":"TED5000"},{"id":24,"addressH":0,"addressL":4,"interval":"50s","type":"xbee temp"}] 
+[2018-09-21 20:45:04,592] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor ID:3 
+[2018-09-21 20:45:04,593] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Type:xbee temp 
+[2018-09-21 20:45:04,593] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressL: 2 
+[2018-09-21 20:45:04,593] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressH: 0 
+[2018-09-21 20:45:04,593] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Interval: 50 
+[2018-09-21 20:45:04,593] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor ID:25 
+[2018-09-21 20:45:04,593] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Type:xbee temp 
+[2018-09-21 20:45:04,593] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressL: 5 
+[2018-09-21 20:45:04,594] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressH: 0 
+[2018-09-21 20:45:04,594] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Interval: 50 
+[2018-09-21 20:45:04,594] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor ID:2 
+[2018-09-21 20:45:04,594] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Type:xbee temp 
+[2018-09-21 20:45:04,594] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressL: 3 
+[2018-09-21 20:45:04,594] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressH: 0 
+[2018-09-21 20:45:04,594] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Interval: 50 
+[2018-09-21 20:45:04,595] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor ID:27 
+[2018-09-21 20:45:04,595] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Type:TED5000 
+[2018-09-21 20:45:04,595] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressL: 0 
+[2018-09-21 20:45:04,595] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressH: 0 
+[2018-09-21 20:45:04,595] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Interval: 60 
+[2018-09-21 20:45:04,595] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor ID:24 
+[2018-09-21 20:45:04,595] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Type:xbee temp 
+[2018-09-21 20:45:04,596] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressL: 4 
+[2018-09-21 20:45:04,596] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor AddressH: 0 
+[2018-09-21 20:45:04,596] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Sensor Interval: 50 
+[2018-09-21 20:45:04,868] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] The local channel is 12 
+[2018-09-21 20:45:04,869] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Looking at sensor 0: id=3 type=xbee temp 
+[2018-09-21 20:45:04,932] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Found Xbee id: 3 
+[2018-09-21 20:45:04,996] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Looking at sensor 1: id=25 type=xbee temp 
+[2018-09-21 20:45:05,059] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Found Xbee id: 25 
+[2018-09-21 20:45:05,124] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Looking at sensor 2: id=2 type=xbee temp 
+[2018-09-21 20:45:05,188] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Found Xbee id: 2 
+[2018-09-21 20:45:05,252] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Looking at sensor 3: id=27 type=TED5000 
+[2018-09-21 20:45:05,252] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Looking at sensor 4: id=24 type=xbee temp 
+[2018-09-21 20:45:05,315] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Found Xbee id: 24 
+[2018-09-21 20:45:05,501] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 26558 
+[2018-09-21 20:45:05,501] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=27&value=-5&ts=2018-09-21+20%3A44%3A00+CDT&key=26558 
+[2018-09-21 20:45:05,577] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:45:05,578] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:45:55,608] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 26558 
+[2018-09-21 20:45:55,609] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=27&value=-5&ts=2018-09-21+20%3A45%3A00+CDT&key=26558 
+[2018-09-21 20:45:55,719] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:45:55,719] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:46:45,748] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 26558 
+[2018-09-21 20:46:45,749] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=27&value=-5&ts=2018-09-21+20%3A46%3A00+CDT&key=26558 
+[2018-09-21 20:46:45,864] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:46:45,864] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:47:23,661] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:47:23,662] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -49 
+[2018-09-21 20:47:23,662] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 948 
+[2018-09-21 20:47:33,707] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:47:33,707] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -50 
+[2018-09-21 20:47:33,707] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 952 
+[2018-09-21 20:47:35,865] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 44715 
+[2018-09-21 20:47:35,865] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=948&ts=2018-09-21+20%3A47%3A23+CDT&key=44715 
+[2018-09-21 20:47:35,984] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:47:35,984] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:47:35,985] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 43360 
+[2018-09-21 20:47:35,985] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=952&ts=2018-09-21+20%3A47%3A33+CDT&key=43360 
+[2018-09-21 20:47:36,062] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:47:36,063] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:47:36,091] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 26558 
+[2018-09-21 20:47:36,091] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=27&value=-5&ts=2018-09-21+20%3A47%3A00+CDT&key=26558 
+[2018-09-21 20:47:36,165] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:47:36,165] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:47:43,769] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:47:43,769] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -54 
+[2018-09-21 20:47:43,769] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 955 
+[2018-09-21 20:47:53,815] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:47:53,815] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -49 
+[2018-09-21 20:47:53,815] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 958 
+[2018-09-21 20:48:03,877] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:48:03,877] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -55 
+[2018-09-21 20:48:03,877] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 959 
+[2018-09-21 20:48:13,924] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:48:13,924] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -55 
+[2018-09-21 20:48:13,924] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 961 
+[2018-09-21 20:48:23,971] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:48:23,972] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -61 
+[2018-09-21 20:48:23,972] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 962 
+[2018-09-21 20:48:26,166] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 44173 
+[2018-09-21 20:48:26,166] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=955&ts=2018-09-21+20%3A47%3A43+CDT&key=44173 
+[2018-09-21 20:48:26,275] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:48:26,275] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:48:26,275] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 44986 
+[2018-09-21 20:48:26,275] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=958&ts=2018-09-21+20%3A47%3A53+CDT&key=44986 
+[2018-09-21 20:48:26,346] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:48:26,346] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:48:26,346] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 45257 
+[2018-09-21 20:48:26,346] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=959&ts=2018-09-21+20%3A48%3A03+CDT&key=45257 
+[2018-09-21 20:48:26,424] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:48:26,424] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:48:26,424] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 43360 
+[2018-09-21 20:48:26,424] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=961&ts=2018-09-21+20%3A48%3A13+CDT&key=43360 
+[2018-09-21 20:48:26,515] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:48:26,515] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:48:26,516] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 43631 
+[2018-09-21 20:48:26,516] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=962&ts=2018-09-21+20%3A48%3A23+CDT&key=43631 
+[2018-09-21 20:48:26,594] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:48:26,594] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:48:26,630] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 26558 
+[2018-09-21 20:48:26,631] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=27&value=-5&ts=2018-09-21+20%3A48%3A00+CDT&key=26558 
+[2018-09-21 20:48:26,713] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:48:26,714] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:48:34,032] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:48:34,032] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -53 
+[2018-09-21 20:48:34,032] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 963 
+[2018-09-21 20:48:34,144] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x04 
+[2018-09-21 20:48:34,144] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -53 
+[2018-09-21 20:48:34,144] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 1023 
+[2018-09-21 20:48:44,078] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:48:44,078] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -50 
+[2018-09-21 20:48:44,079] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 964 
+[2018-09-21 20:48:54,141] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:48:54,141] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -46 
+[2018-09-21 20:48:54,141] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 965 
+[2018-09-21 20:49:04,187] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:49:04,187] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -47 
+[2018-09-21 20:49:04,187] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 966 
+[2018-09-21 20:49:14,233] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:49:14,234] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -46 
+[2018-09-21 20:49:14,234] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 967 
+[2018-09-21 20:49:16,714] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 43902 
+[2018-09-21 20:49:16,715] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=963&ts=2018-09-21+20%3A48%3A34+CDT&key=43902 
+[2018-09-21 20:49:17,521] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:49:17,521] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:49:17,521] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 53658 
+[2018-09-21 20:49:17,521] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=24&value=1023&ts=2018-09-21+20%3A48%3A34+CDT&key=53658 
+[2018-09-21 20:49:17,882] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:49:17,883] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:49:17,883] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 44173 
+[2018-09-21 20:49:17,883] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=964&ts=2018-09-21+20%3A48%3A44+CDT&key=44173 
+[2018-09-21 20:49:18,015] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:49:18,015] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:49:18,015] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 44444 
+[2018-09-21 20:49:18,015] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=965&ts=2018-09-21+20%3A48%3A54+CDT&key=44444 
+[2018-09-21 20:49:19,671] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:49:19,671] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:49:19,671] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 44715 
+[2018-09-21 20:49:19,671] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=966&ts=2018-09-21+20%3A49%3A04+CDT&key=44715 
+[2018-09-21 20:49:19,749] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:49:19,749] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:49:19,749] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 44986 
+[2018-09-21 20:49:19,749] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=967&ts=2018-09-21+20%3A49%3A14+CDT&key=44986 
+[2018-09-21 20:49:19,826] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:49:19,826] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:49:19,855] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 26558 
+[2018-09-21 20:49:19,855] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=27&value=-5&ts=2018-09-21+20%3A49%3A00+CDT&key=26558 
+[2018-09-21 20:49:19,936] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:49:19,936] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:49:24,295] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:49:24,296] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -47 
+[2018-09-21 20:49:24,296] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 967 
+[2018-09-21 20:49:34,342] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:49:34,343] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -48 
+[2018-09-21 20:49:34,343] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 968 
+[2018-09-21 20:49:34,470] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x04 
+[2018-09-21 20:49:34,470] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -49 
+[2018-09-21 20:49:34,470] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 1023 
+[2018-09-21 20:49:44,404] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:49:44,405] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -49 
+[2018-09-21 20:49:44,405] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 969 
+[2018-09-21 20:49:54,450] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:49:54,450] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -48 
+[2018-09-21 20:49:54,450] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 969 
+[2018-09-21 20:50:04,513] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:50:04,513] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -50 
+[2018-09-21 20:50:04,513] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 969 
+[2018-09-21 20:50:09,936] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 44986 
+[2018-09-21 20:50:09,937] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=967&ts=2018-09-21+20%3A49%3A24+CDT&key=44986 
+[2018-09-21 20:50:10,054] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:50:10,055] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:50:10,055] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 45257 
+[2018-09-21 20:50:10,055] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=968&ts=2018-09-21+20%3A49%3A34+CDT&key=45257 
+[2018-09-21 20:50:10,148] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:50:10,148] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:50:10,149] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 53658 
+[2018-09-21 20:50:10,149] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=24&value=1023&ts=2018-09-21+20%3A49%3A34+CDT&key=53658 
+[2018-09-21 20:50:10,232] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:50:10,232] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:50:10,233] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 45528 
+[2018-09-21 20:50:10,233] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=969&ts=2018-09-21+20%3A49%3A44+CDT&key=45528 
+[2018-09-21 20:50:10,309] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:50:10,309] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:50:10,310] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 45528 
+[2018-09-21 20:50:10,310] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=969&ts=2018-09-21+20%3A49%3A54+CDT&key=45528 
+[2018-09-21 20:50:10,388] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:50:10,388] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:50:10,389] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 45528 
+[2018-09-21 20:50:10,389] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=969&ts=2018-09-21+20%3A50%3A04+CDT&key=45528 
+[2018-09-21 20:50:10,482] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:50:10,483] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:50:10,512] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 26558 
+[2018-09-21 20:50:10,512] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=27&value=-5&ts=2018-09-21+20%3A50%3A00+CDT&key=26558 
+[2018-09-21 20:50:10,591] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:50:10,591] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:50:14,559] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:50:14,559] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -52 
+[2018-09-21 20:50:14,560] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 970 
+[2018-09-21 20:50:24,605] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:50:24,606] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -51 
+[2018-09-21 20:50:24,606] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 970 
+[2018-09-21 20:50:34,667] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:50:34,667] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -49 
+[2018-09-21 20:50:34,667] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 971 
+[2018-09-21 20:50:34,811] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x04 
+[2018-09-21 20:50:34,812] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -50 
+[2018-09-21 20:50:34,812] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 1023 
+[2018-09-21 20:50:44,714] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:50:44,715] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -52 
+[2018-09-21 20:50:44,715] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 971 
+[2018-09-21 20:50:54,776] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:50:54,776] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -51 
+[2018-09-21 20:50:54,776] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 971 
+[2018-09-21 20:51:00,592] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 43360 
+[2018-09-21 20:51:00,592] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=970&ts=2018-09-21+20%3A50%3A14+CDT&key=43360 
+[2018-09-21 20:51:00,712] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:51:00,712] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:51:00,713] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 43360 
+[2018-09-21 20:51:00,713] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=970&ts=2018-09-21+20%3A50%3A24+CDT&key=43360 
+[2018-09-21 20:51:00,794] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:51:00,794] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:51:00,795] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 43631 
+[2018-09-21 20:51:00,795] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=971&ts=2018-09-21+20%3A50%3A34+CDT&key=43631 
+[2018-09-21 20:51:00,874] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:51:00,874] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:51:00,875] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 53658 
+[2018-09-21 20:51:00,875] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=24&value=1023&ts=2018-09-21+20%3A50%3A34+CDT&key=53658 
+[2018-09-21 20:51:00,962] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:51:00,962] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:51:00,962] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 43631 
+[2018-09-21 20:51:00,963] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=971&ts=2018-09-21+20%3A50%3A44+CDT&key=43631 
+[2018-09-21 20:51:01,043] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:51:01,043] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:51:01,044] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 43631 
+[2018-09-21 20:51:01,044] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=3&value=971&ts=2018-09-21+20%3A50%3A54+CDT&key=43631 
+[2018-09-21 20:51:01,120] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:51:01,121] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:51:01,149] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Hash: 26558 
+[2018-09-21 20:51:01,149] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filing measurement: /measurements?sensor_id=27&value=-5&ts=2018-09-21+20%3A50%3A00+CDT&key=26558 
+[2018-09-21 20:51:01,223] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Response: Filed successfully 
+[2018-09-21 20:51:01,223] [main] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Filed successfully. 
+[2018-09-21 20:51:04,822] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:51:04,823] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -49 
+[2018-09-21 20:51:04,823] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 972 
+[2018-09-21 20:51:14,870] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:51:14,870] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -50 
+[2018-09-21 20:51:14,870] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 971 
+[2018-09-21 20:51:24,931] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:51:24,932] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -52 
+[2018-09-21 20:51:24,932] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 972 
+[2018-09-21 20:51:34,978] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x02 
+[2018-09-21 20:51:34,978] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -53 
+[2018-09-21 20:51:34,978] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 972 
+[2018-09-21 20:51:35,169] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Received a sample from 0x00,0x04 
+[2018-09-21 20:51:35,170] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] RSSI is -51 
+[2018-09-21 20:51:35,170] [pool-1-thread-1] [DEBUG] [com.eschers.eschermonitor.EscherMonitor] Analog D0 (pin 20) 10-bit reading is 1023 
